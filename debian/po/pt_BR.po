@@ -1,0 +1,36 @@
+# Debconf translations for google-android-installers.
+# Copyright (C) 2022 THE google-android-installers'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the google-android-installers package.
+# Paulo Henrique de Lima Santana (phls) <phls@debian.org>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: google-android-installers_1666965622\n"
+"Report-Msgid-Bugs-To: google-android-installers@packages.debian.org\n"
+"POT-Creation-Date: 2021-10-17 12:58+0200\n"
+"PO-Revision-Date: 2022-12-04 17:15-0300\n"
+"Last-Translator: Paulo Henrique de Lima Santana (phls) <phls@debian.org>\n"
+"Language-Team: Brazilian Portuguese <debian-l10n-portuguese@lists.debian."
+"org>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"X-Generator: Gtranslator 42.0\n"
+
+#. Type: select
+#. Description
+#: ../templates.in:1001
+msgid "Mirror to download packages ?"
+msgstr "Espelho para baixar os pacotes?"
+
+#. Type: select
+#. Description
+#: ../templates.in:1001
+msgid ""
+"Please select your preferred mirror to download Google's Android packages "
+"from."
+msgstr ""
+"Por favor, selecione seu espelho preferido para baixar os pacotes Android do "
+"Google."

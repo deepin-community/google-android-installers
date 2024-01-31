@@ -1,0 +1,48 @@
+#!/bin/sh
+
+set -e
+
+PKG_NAME="ndk-%VER%"
+INS_DIR="android-sdk/%PATH_DIRNAME%/"
+TRG_DIR="%PATH_BASENAME%"
+REPO_DIR="%REPO_DIR%"
+PKG_SOURCE="%ZIPFILE%"
+
+# Source debconf library.
+. /usr/share/debconf/confmodule
+db_get google-android-installers/mirror
+
+case "$1" in
+    configure)
+        if [ "${DEBCONF_RECONFIGURE}" = "1" ]; then
+            db_fset google-android-installers/mirror seen false
+            db_input high google-android-installers/mirror || true
+            db_go || true
+        else
+            install -d -m0700 -o nobody -g nogroup /var/cache/google-android-"$PKG_NAME"-installer
+            cp /usr/share/google-android-"$PKG_NAME"-installer/Makefile \
+               /usr/share/google-android-"$PKG_NAME"-installer/"$PKG_SOURCE".sha1 \
+               /var/cache/google-android-"$PKG_NAME"-installer/
+            make -C /var/cache/google-android-"$PKG_NAME"-installer/ DL_MIRROR="$RET" REPO_DIR="$REPO_DIR" PKG_NAME="$PKG_NAME" TRG_DIR="$TRG_DIR" INS_DIR="$INS_DIR" PKG_SOURCE="$PKG_SOURCE" install
+        fi
+
+        echo /usr/lib/android-ndk >> /var/lib/dpkg/info/google-android-${PKG_NAME}-installer.list
+
+        # Link /usr/lib/android-ndk to highest installed NDK version
+        LATEST_DIR=$(basename "$(find "/usr/lib/${INS_DIR}" -maxdepth 1 -name "*" | sort | tail -n1)")
+        ln -sfn -T "${INS_DIR}${LATEST_DIR}" "/usr/lib/android-ndk"
+        echo "Symbolic link '/usr/lib/android-ndk' points to the highest NDK version installed ($LATEST_DIR)."
+    ;;
+
+    abort-upgrade|abort-remove|abort-deconfigure)
+    ;;
+
+    *)
+        echo "postinst called with unknown argument \`$1'" >&2
+        exit 1
+    ;;
+esac
+
+#DEBHELPER#
+
+exit 0

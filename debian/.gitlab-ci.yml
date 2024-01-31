@@ -1,0 +1,28 @@
+---
+include:
+  - https://salsa.debian.org/salsa-ci-team/pipeline/raw/master/recipes/debian.yml
+
+default:
+# Run the pipeline jobs only on runners that are tagged x86
+# See https://salsa.debian.org/salsa-ci-team/pipeline/-/issues/271
+  tags:
+    - x86
+
+variables:
+  # BLHC is useless for this package since it as collection of shell scripts
+  SALSA_CI_DISABLE_BLHC: 1
+
+  # Running Piuparts means downloading all android SDK components from google servers.
+  # So we disable it by default.
+  SALSA_CI_DISABLE_PIUPARTS: 1
+  # Ignore /usr/lib32 (See: https://salsa.debian.org/salsa-ci-team/pipeline/-/issues/293)
+  SALSA_CI_PIUPARTS_ARGS: '--ignore=/usr/lib32/'
+
+  # Show lintian overrides
+  # Disable for now because if show-overrides is enabled and there are errors hidden
+  # by the override, then the job will show failure
+  SALSA_CI_LINTIAN_SHOW_OVERRIDES: 0
+
+  # This is to prevent "package-has-long-file-name" lintian warnings due to addition
+  # of +salsaci
+  SALSA_CI_DISABLE_VERSION_BUMP: 1

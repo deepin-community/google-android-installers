@@ -1,0 +1,39 @@
+Package: google-android-platform-tools-installer
+Architecture: amd64
+Depends: google-android-licenses (= ${source:Version}),
+         ${googleAndroidInstallers:Depends},
+         ${misc:Depends}
+Replaces: adb,
+          android-sdk-platform-tools,
+          android-sdk-platform-tools-common,
+          dmtracedump,
+          etc1tool,
+          fastboot,
+          hprof-conv
+Conflicts: adb,
+           android-sdk-platform-tools,
+           android-sdk-platform-tools-common,
+           dmtracedump,
+           etc1tool,
+           fastboot,
+           hprof-conv
+Provides: adb, dmtracedump, e2fsdroid, etc1tool, fastboot, hprof-conv
+Homepage: https://developer.android.com/studio/command-line#tools-platform
+Description: Google's %PACKAGE_DISPLAY_NAME% Installer
+ This package will download the Google's %PACKAGE_DISPLAY_NAME% package and
+ unpacks it into Debian-friendly paths.
+ .
+ Google's %PACKAGE_DISPLAY_NAME% is a component for the Android SDK. It
+ includes tools that interface with the Android platform, such as adb,
+ fastboot, and systrace. These tools are required for Android app development.
+ They're also needed if you want to unlock your device bootloader and flash
+ it with a new system image.
+ .
+ Although some new features in these tools are available only for recent
+ versions of Android, the tools are backward compatible, so you need only
+ one version of the SDK Platform-Tools.
+ .
+ WARNING: Installing this Debian package causes %ZIPFILE%
+ (%MB_SIZE% MB) to be downloaded from dl.google.com and/or from other
+ suggested mirrors. The End User License Agreement of this binary package is
+ available at developer.android.com.

@@ -1,5 +1,291 @@
-template-repository (1.0-1) unstable; urgency=medium
+google-android-installers (1695033340) unstable; urgency=medium
 
-  * Initial release
+  * New upstream update
+    - NEW packages:
+      - google-android-cmdline-tools-10.0-installer
+      - google-android-cmdline-tools-11.0-installer
+      - google-android-ndk-r26-installer
+      - google-android-platform-34-upsidedowncakeprivacysandbox-installer
+      - google-android-sources-34-installer
+    - DELETED package:
+      - google-android-platform-33-upsidedowncakeprivacysandbox-installer
+    - update platform-tools package to 34.0.4
+    - update emulator package to 32.1.15
+    - update Android SDK Platform 33
+    - update Android SDK Platform 34
+  * update 51-android.rules to latest upstream
+  * build-tools: add Provides & improve alternatives
+  * cmdline-tools: add Provides & improve alternatives
+  * Move addition of 'google-android-cmdline-tools-latest-installer' Provides
+    to other script
+  * cmdline-tools: Conflicts with android-platform-tools-base, sdkmanager
+  * fix Conflicts & Replaces for build-tools & cmdline-tools
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Fab Stz <fabstz-it@yahoo.fr>  Thu, 21 Sep 2023 09:06:31 +0200
+
+google-android-installers (1686227321) unstable; urgency=medium
+
+  * New upstream update
+    - NEW packages:
+      - google-android-build-tools-33.0.2-installer
+      - google-android-build-tools-34.0.0-installer
+      - google-android-platform-33-ext4-installer
+      - google-android-platform-33-ext5-installer
+      - google-android-platform-34-installer
+      - google-android-platform-33-upsidedowncakeprivacysandbox-installer
+    - update emulator package to 32.1.13
+    - update platform-tools package to 34.0.3
+  * update 51-android.rules to latest upstream
+  * d/.gitlab-ci.yml: add SALSA_CI_PIUPART_ARGS to ignore /usr/lib32/
+  * d/.gitlab-ci.yml: disable lintian's show-overrides
+  * d/scripts: fail scripts on error
+  * support multiple platform;android-33 components
+  * add conflicts for the cases of multiple platform;android-33 packages
+  * improvements to get unpacked size of packages
+  * Remove old update scripts
+  * remove for-postinst/docs/. This is managed by another source package
+  * Update copyright
+  * update source/lintian-overrides
+  * d/rules:
+      - autogenerate files 'after_dh_prep' and not before
+      - factorize functions, call external scripts
+  * for cmdline-tools depend on build-tools through Provides
+  * add virtual package google-android-cmdline-tools-latest-installer
+  * use common functions in get_unpacked_size.sh
+  * use common functions in build_tests_control_file.sh
+  * use common functions in build_control_file.sh
+  * d/scripts/upgrade_package_versions.sh: various fixes & improvements
+  * README.source: remove now unneeded call to dpkg-buildpackage
+  * d/scripts/get_unpacked_size.sh: fix ZIPFILE variable typo
+
+ -- Fab Stz <fabstz-it@yahoo.fr>  Fri, 16 Jun 2023 09:15:42 +0200
+
+google-android-installers (1675172738) unstable; urgency=medium
+
+  * Makefile: fix broken symbolic links (Closes: #1035713)
+
+ -- Fab Stz <fabstz-it@yahoo.fr>  Tue, 09 May 2023 17:35:00 +0200
+
+google-android-installers (1675172737) unstable; urgency=medium
+
+  * cmdline-tools: set Architecture to 'amd64 i386'
+
+ -- Fab Stz <fabstz-it@yahoo.fr>  Sun, 09 Apr 2023 22:31:58 +0200
+
+google-android-installers (1675172736) unstable; urgency=medium
+
+  * cmdline-tools: add dependency to build-tools packages. Closes: #1033729
+
+ -- Fab Stz <fabstz-it@yahoo.fr>  Mon, 03 Apr 2023 18:25:39 +0200
+
+google-android-installers (1675172735) unstable; urgency=medium
+
+  * New upstream update
+    - NEW package: google-android-cmdline-tools-9.0-installer
+    - NEW package: google-android-ndk-r25c-installer
+    - update emulator package to 31.3.15
+    - update "platforms;android-TiramisuPrivacySandbox" v33 to rev9
+    - refresh Android Auto dependencies [adds libusb-1.0-0 (>= 2:1.0.8)]
+
+ -- Fab Stz <fabstz-it@yahoo.fr>  Wed, 08 Feb 2023 11:36:58 +0100
+
+google-android-installers (1673573135) unstable; urgency=medium
+
+  * add pt_BR translation (Closes: #1025448). Thanks to Paulo Henrique de
+    Lima Santana
+  * New upstream update
+    - NEW package: google-android-build-tools-33.0.1-installer
+    - NEW package: google-android-cmdline-tools-8.0-installer
+    - update emulator package to 31.3.14
+
+ -- Fab Stz <fabstz-it@yahoo.fr>  Fri, 13 Jan 2023 12:34:58 +0100
+
+google-android-installers (1666965622) unstable; urgency=medium
+
+  * move to google-android-tools-team
+
+ -- Roger Shimizu <rosh@debian.org>  Tue, 22 Nov 2022 19:57:16 +0100
+
+google-android-installers (1666965621) unstable; urgency=medium
+
+  * New upstream update
+    - update emulator package to 31.3.13
+    - update platform-TiramisuPrivacySandbox to r08
+    - update android auto to 2.0
+  * update Android Auto dependencies - Closes: #1021189
+  * set Android Auto version to 2.0.2+really2.0
+
+ -- Fab Stz <fabstz-it@yahoo.fr>  Thu, 03 Nov 2022 09:04:28 +0100
+
+google-android-installers (1663888325) unstable; urgency=medium
+
+  * d/copyright*: make it more fine-grained
+  * New upstream update
+    - update emulator package to 31.3.11
+    - update platform-tools to 33.0.3
+    - update android-TiramisuPrivacySandbox 33 to rev 6
+    - NEW package: google-android-sources-33-installer
+    - NEW package: google-android-ndk-r25b-installer
+  * Update 51-android.rules to latest upstream
+
+ -- Fab Stz <fabstz-it@yahoo.fr>  Mon, 26 Sep 2022 20:40:13 +0200
+
+google-android-installers (1659100756) unstable; urgency=medium
+
+  * d/control: add build-dependency to po-debconf
+  * d/control: enable autobuild
+
+ -- Fab Stz <fabstz-it@yahoo.fr>  Sun, 07 Aug 2022 09:56:23 +0200
+
+google-android-installers (1659100755) unstable; urgency=medium
+
+  * New upstream update (no new binary package)
+  * Bump Standards-Version to 4.6.1 (no change)
+  * Bugs below have already been addressed in version 1653078891. Closing them
+    - Closes: #987347
+    - Closes: #987349
+    - Closes: #987955
+    - LP: #1726423
+    - LP: #1796005
+    - LP: #1858055
+    - LP: #1888559
+    - LP: #1929734
+    - LP: #1532510
+    - LP: #1698502
+  * some fixes suggested by lintian
+  * d/control: fix Depends of build-tools when on i386 Architecture
+  * d/control: fix Architecture of platform-tools & build-tools
+  * d/control: add version number to cmdline-tools description
+  * d/tests/control: add tests for build-tools to have also tests on i386
+  * d/tests/control: fix Architecture of platform-tools & build-tools
+
+ -- Fab Stz <fabstz-it@yahoo.fr>  Sat, 30 Jul 2022 11:26:11 +0200
+
+google-android-installers (1657726242) unstable; urgency=medium
+
+  * New upstream update
+
+ -- Fab Stz <fabstz-it@yahoo.fr>  Tue, 19 Jul 2022 06:57:48 +0200
+
+google-android-installers (1657651256) experimental; urgency=medium
+
+  * New upstream update
+    - Remove google-android-platform-32-tiramisu-installer
+    - Add google-android-platform-33-installer
+    - Add google-android-build-tools-33.0.0-installer
+    - Add NDK r25
+  * New upstream "51-android.rules" file
+
+ -- Fab Stz <fabstz-it@yahoo.fr>  Thu, 14 Jul 2022 15:16:16 +0200
+
+google-android-installers (1653488019) experimental; urgency=medium
+
+  * d/control: move package to non-free section
+  * d/control: add myself to Uploaders
+
+ -- Fab Stz <fabstz-it@yahoo.fr>  Thu, 02 Jun 2022 22:00:34 +0200
+
+google-android-installers (1653488018) experimental; urgency=medium
+
+  * New upstream update
+    - add NDK r23c
+    - update platform-tools 33.0.1 -> 33.0.2
+  * d/tests/control: test only google-android-extras-google-auto-installer
+  * d/tests/control: Add Architecture field
+
+ -- Fab Stz <fabstz-it@yahoo.fr>  Sun, 29 May 2022 18:59:09 +0200
+
+google-android-installers (1653078891) experimental; urgency=medium
+
+  * Non-maintainer upload.
+  * Update package with latest versions of 'platforms' and 'build-tools'
+    components (Closes: #901029)
+  * Remove packages for obsolete versions of the SDK components
+  * Add packages for the following SDK components:
+    - cmdline-tools
+    - extras/google/auto (Android Auto Desktop Head Unit Emulator)
+    - emulator
+    - ndk
+    - patcher
+    - platform-tools
+    - sources
+  * Add google-android-licenses package holding android-sdk/licenses directory
+  * Add /usr/lib/android-sdk/{build-tools/, platforms/,...} to
+    /var/lib/dpkg/info/*.list  (Closes: #852139)
+  * d/po/* & debconf templates:
+    - add Spanish debconf translation, thanks to Camaleón, Closes: #987344.
+    - fix typo
+  * Set "Installed-Size:" in binary control file
+  * Automate creation of binary packages
+    - use Google's repository2-1.xml to get all current packages
+    - add 'upgrade_package_versions.sh' script to ease update to newer versions
+    - add 'build_control_file.sh' script to build d/control file
+    - add 'build_tests_control_file.sh' script to build d/tests/control which
+      is filled with simple autopkgtest tests for each package
+    - build the package.xml file for each SDK components
+  * d/copyright:
+    - use license provided by repository2-1.xml to build copyright file
+  * d/changelog:
+    - update version of package to the timestamp as displayed
+      in 'repository2-1.xml'
+  * d/control:
+    - display download size of ZIP files
+    - is auto-generated
+    - bump debhelper-compat to 13
+    - bump Standards-Version to 4.6.0.1
+  * d/rules:
+    - creates the $package.* files
+    - creates the missing sha1 sums
+  * platform-tools:
+    - add udev rules to platform-tools package (51-android.rules)
+
+ -- Fab Stz <fabstz-it@yahoo.fr>  Mon, 23 May 2022 14:13:04 +0200
+
+google-android-installers (1472023576+nmu5) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * d/rules: Bump up binary package version (Closes: #960603).
+
+ -- Roger Shimizu <rosh@debian.org>  Fri, 15 May 2020 00:00:31 +0900
+
+google-android-installers (1472023576+nmu4) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Add debian/.gitlab-ci.yml
+  * debian/control:
+    - Add Rules-Requires-Root: no
+    - Move Vcs-* to salsa.
+
+ -- Roger Shimizu <rosh@debian.org>  Wed, 13 May 2020 21:39:12 +0900
+
+google-android-installers (1472023576+nmu3) unstable; urgency=medium
+
+  * Really increment *all* version numbers. Closes: #915657.
+
+ -- Helge Kreutzmann <debian@helgefjell.de>  Tue, 05 Feb 2019 19:02:29 +0100
+
+google-android-installers (1472023576+nmu2) unstable; urgency=medium
+
+  * Non-maintainer upload
+  * Explicitly increment version numbers. Closes: #915657.
+  * No longer build google-android-ndk-installer. Closes: #849390.
+  * Add Russian debconf translation, thanks to Lev Lamberov, Closes: #914169.
+
+ -- Helge Kreutzmann <debian@helgefjell.de>  Sun, 03 Feb 2019 12:25:36 +0100
+
+google-android-installers (1472023576+nmu1) unstable; urgency=medium
+
+  * Non-maintainer upload for i18n with permission of a member of the
+    `android-tools` team
+  * Add Swedish debconf translation, thanks to Jonatan Nyberg,
+    Closes: #851860, #862759.
+  * Add Danish debconf translation, thanks to Joe Dalton, Closes: #856777.
+  * Comment out links to now defunct alioth services.
+
+ -- Helge Kreutzmann <debian@helgefjell.de>  Sun, 26 Aug 2018 15:27:21 +0200
+
+google-android-installers (1472023576) unstable; urgency=medium
+
+  * Initial release (Closes: #834512)
+
+ -- Mouaad Aallam <Mouaad@Aallam.com>  Tue, 19 Jul 2016 12:00:25 +0000

@@ -1,0 +1,4 @@
+# debian/copyright is created at build time by debian/rules
+google-android-installers source: no-debian-copyright-in-source
+# This is expected because this source package produces many binary packages
+google-android-installers source: field-too-long Binary *

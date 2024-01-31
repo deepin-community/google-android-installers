@@ -1,0 +1,7 @@
+#!/bin/sh
+
+echo "Installed google-android-* family packages:" >&3
+dpkg-query -W google-android-* | sort | sed "s/^/  /" >&3
+
+echo "Content of /usr/lib/android-sdk (maxdepth 2):" >&3
+find /usr/lib/android-sdk/ -maxdepth 2 | sort | sed "s/^/  /"  >&3

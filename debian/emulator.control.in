@@ -1,0 +1,19 @@
+Package: google-android-emulator-installer
+Architecture: amd64
+Depends: google-android-licenses (= ${source:Version}),
+         ${googleAndroidInstallers:Depends},
+         ${misc:Depends}
+Homepage: https://developer.android.com/studio/run/emulator-commandline
+Description: Google's %PACKAGE_DISPLAY_NAME% Installer
+ This package will download Google's %PACKAGE_DISPLAY_NAME% binary package,
+ create a Debian package, and install it.
+ .
+ Google's %PACKAGE_DISPLAY_NAME% is a component for the Android SDK. It
+ includes an Android device emulator — a virtual device that runs on your
+ computer. The Android Emulator lets you develop and test Android apps without
+ using a physical device.
+ .
+ WARNING: Installing this Debian package causes %ZIPFILE%
+ (%MB_SIZE% MB) to be downloaded from dl.google.com and/or from other
+ suggested mirrors. The End User License Agreement of this binary package is
+ available at developer.android.com.
