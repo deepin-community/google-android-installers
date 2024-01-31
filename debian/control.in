@@ -1,0 +1,24 @@
+Source: google-android-installers
+Section: non-free/devel
+Priority: optional
+Maintainer: Fab Stz <fabstz-it@yahoo.fr>
+Uploaders: Roger Shimizu <rosh@debian.org>, Mouaad Aallam <Mouaad@Aallam.com>
+Build-Depends: bash-completion, debhelper-compat (=13), po-debconf
+Standards-Version: 4.6.1
+Rules-Requires-Root: no
+Homepage: https://developer.android.com/about/index.html
+Vcs-Git: https://salsa.debian.org/google-android-tools-team/google-android-installers.git
+Vcs-Browser: https://salsa.debian.org/google-android-tools-team/google-android-installers
+XS-Autobuild: yes
+
+Package: google-android-licenses
+Architecture: all
+Depends: ${googleAndroidInstallers:Depends}, ${misc:Depends}
+Description: Google's SDK licences subfolder with licenses SHA1 sums
+ This package hols the "licenses" folder of the Google Android SDK folder
+ structure.
+ .
+ The files in that folder contain the sha1sums of the licences that are in
+ the package.xml files of each SDK Component.
+ .
+ They are used to check that license has been accepted by the user.

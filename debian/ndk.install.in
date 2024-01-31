@@ -1,0 +1,3 @@
+for-postinst/default/Makefile  usr/share/google-android-ndk-%VER%-installer/
+for-postinst/default/%ZIPFILE%.sha1  usr/share/google-android-ndk-%VER%-installer/
+%PATH_DIRNAME%/%PATH_BASENAME%/package.xml  usr/share/google-android-ndk-%VER%-installer/

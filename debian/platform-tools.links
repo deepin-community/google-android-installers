@@ -1,0 +1,6 @@
+usr/lib/android-sdk/platform-tools/adb /usr/bin/adb
+usr/lib/android-sdk/platform-tools/dmtracedump /usr/bin/dmtracedump
+usr/lib/android-sdk/platform-tools/e2fsdroid /usr/bin/e2fsdroid
+usr/lib/android-sdk/platform-tools/etc1tool /usr/bin/etc1tool
+usr/lib/android-sdk/platform-tools/fastboot /usr/bin/fastboot
+usr/lib/android-sdk/platform-tools/hprof-conv /usr/bin/hprof-conv

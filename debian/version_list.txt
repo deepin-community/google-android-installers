@@ -1,0 +1,171 @@
+# This file is generated automatically by script in debian/scripts/upgrade_package_versions.sh
+# Don't update this file manually.
+build-tools;17.0.0		17.0.0	Android SDK Build-Tools 17	android-sdk-license	11696007	build-tools_r17-linux.zip	2c2872bc3806aabf16a12e3959c2183ddc866e6d	obsolete	tools	
+build-tools;18.0.1		18.0.1	Android SDK Build-Tools 18.0.1	android-sdk-license	16627330	build-tools_r18.0.1-linux.zip	f11618492b0d2270c332325d45d752d3656a9640	obsolete	tools	
+build-tools;18.1.0		18.1.0	Android SDK Build-Tools 18.1	android-sdk-license	20229298	build-tools_r18.1-linux.zip	f314a0599e51397f0886fe888b50dd98f2f050d8	obsolete	tools	
+build-tools;18.1.1		18.1.1	Android SDK Build-Tools 18.1.1	android-sdk-license	20229760	build-tools_r18.1.1-linux.zip	68c9acbfc0cec2d51b19efaed39831a17055d998	obsolete	tools	
+build-tools;19.0.0		19.0.0	Android SDK Build-Tools 19	android-sdk-license	21339943	build-tools_r19-linux.zip	55c1a6cf632e7d346f0002b275ec41fd3137fd83	obsolete	tools	
+build-tools;19.0.1		19.0.1	Android SDK Build-Tools 19.0.1	android-sdk-license	21229048	build-tools_r19.0.1-linux.zip	18d2312dc4368858914213087f4e61445aca4517	obsolete	tools	
+build-tools;19.0.2		19.0.2	Android SDK Build-Tools 19.0.2	android-sdk-license	21352552	build-tools_r19.0.2-linux.zip	a03a6bdea0091aea32e1b35b90a7294c9f04e3dd	obsolete	tools	
+build-tools;19.0.3		19.0.3	Android SDK Build-Tools 19.0.3	android-sdk-license	21462150	build-tools_r19.0.3-linux.zip	c2d6055478e9d2d4fba476ee85f99181ddd1160c	obsolete	tools	
+build-tools;19.1.0		19.1.0	Android SDK Build-Tools 19.1	android-sdk-license	21490972	build-tools_r19.1-linux.zip	1ff20ac15fa47a75d00346ec12f180d531b3ca89		tools	
+build-tools;20.0.0		20.0.0	Android SDK Build-Tools 20	android-sdk-license	21445463	build-tools_r20-linux.zip	b688905526a5584d1327a662d871a635ff502758		tools	
+build-tools;21.0.0		21.0.0	Android SDK Build-Tools 21	android-sdk-license	22153145	build-tools_r21-linux.zip	4933328fdeecbd554a29528f254f4993468e1cf4	obsolete	tools	
+build-tools;21.0.1		21.0.1	Android SDK Build-Tools 21.0.1	android-sdk-license	22153013	build-tools_r21.0.1-linux.zip	e573069eea3e5255e7a65bedeb767f4fd0a5f49a	obsolete	tools	
+build-tools;21.0.2		21.0.2	Android SDK Build-Tools 21.0.2	android-sdk-license	22153122	build-tools_r21.0.2-linux.zip	e1236ab8897b62b57414adcf04c132567b2612a5	obsolete	tools	
+build-tools;21.1.0		21.1.0	Android SDK Build-Tools 21.1	android-sdk-license	32642820	build-tools_r21.1-linux.zip	b7455e543784d52a8925f960bc880493ed1478cb	obsolete	tools	
+build-tools;21.1.1		21.1.1	Android SDK Build-Tools 21.1.1	android-sdk-license	32642454	build-tools_r21.1.1-linux.zip	1c712ee3a1ba5a8b0548f9c32f17d4a0ddfd727d	obsolete	tools	
+build-tools;21.1.2		21.1.2	Android SDK Build-Tools 21.1.2	android-sdk-license	32637678	build-tools_r21.1.2-linux.zip	5e35259843bf2926113a38368b08458735479658		tools	
+build-tools;22.0.0		22.0.0	Android SDK Build-Tools 22	android-sdk-license	33104280	build-tools_r22-linux.zip	a8a1619dd090e44fac957bce6842e62abf87965b	obsolete	tools	
+build-tools;22.0.1		22.0.1	Android SDK Build-Tools 22.0.1	android-sdk-license	33104577	build-tools_r22.0.1-linux.zip	da8b9c5c3ede39298e6cf0283c000c2ee9029646		tools	
+build-tools;23.0.0		23.0.0	Android SDK Build-Tools 23	android-sdk-license	39080519	build-tools_r23-linux.zip	c1d6209212b01469f80fa804e0c1d39a06bc9060	obsolete	tools	
+build-tools;23.0.1		23.0.1	Android SDK Build-Tools 23.0.1	android-sdk-license	39069295	build-tools_r23.0.1-linux.zip	b6ba7c399d5fa487d95289d8832e4ad943aed556		tools	
+build-tools;23.0.2		23.0.2	Android SDK Build-Tools 23.0.2	android-sdk-license	39071201	build-tools_r23.0.2-linux.zip	8a9f2b37f6fcf7a9fa784dc21aeaeb41bbb9f2c3		tools	
+build-tools;23.0.3		23.0.3	Android SDK Build-Tools 23.0.3	android-sdk-license	40733174	build-tools_r23.0.3-linux.zip	368f2600feac7e9b511b82f53d1f2240ae4a91a3		tools	
+build-tools;24.0.0		24.0.0	Android SDK Build-Tools 24	android-sdk-license	48960919	build-tools_r24-linux.zip	c6271c4d78a5612ea6c7150688bcd5b7313de8d1		tools	
+build-tools;24.0.1		24.0.1	Android SDK Build-Tools 24.0.1	android-sdk-license	48936286	build-tools_r24.0.1-linux.zip	84f18c392919a074fcbb9b1d967984e6b2fef8b4		tools	
+build-tools;24.0.2		24.0.2	Android SDK Build-Tools 24.0.2	android-sdk-license	48936295	build-tools_r24.0.2-linux.zip	f199a7a788c3fefbed102eea34d6007737b803cf		tools	
+build-tools;24.0.3		24.0.3	Android SDK Build-Tools 24.0.3	android-sdk-license	49779151	build-tools_r24.0.3-linux.zip	9e8cc49d66e03fa1a8ecc1ac3e58f1324f5da304		tools	
+build-tools;25.0.0		25.0.0	Android SDK Build-Tools 25	android-sdk-license	49872921	build-tools_r25-linux.zip	f2bbda60403e75cabd0f238598c3b4dfca56ea44		tools	
+build-tools;25.0.1		25.0.1	Android SDK Build-Tools 25.0.1	android-sdk-license	49880178	build-tools_r25.0.1-linux.zip	ff063d252ab750d339f5947d06ff782836f22bac		tools	
+build-tools;25.0.2		25.0.2	Android SDK Build-Tools 25.0.2	android-sdk-license	49880329	build-tools_r25.0.2-linux.zip	ff953c0177e317618fda40516f3e9d95fd43c7ae		tools	
+build-tools;25.0.3		25.0.3	Android SDK Build-Tools 25.0.3	android-sdk-license	50757258	build-tools_r25.0.3-linux.zip	db95f3a0ae376534d4d69f4cdb6fad20649f3509		tools	
+build-tools;26.0.0		26.0.0	Android SDK Build-Tools 26	android-sdk-license	53854197	build-tools_r26-linux.zip	1cbe72929876f8a872ab1f1b1040a9f720261f59		tools	
+build-tools;26.0.1		26.0.1	Android SDK Build-Tools 26.0.1	android-sdk-license	54113329	build-tools_r26.0.1-linux.zip	5378c2c78091b414d0eac40a6bd37f2faa31a365		tools	
+build-tools;26.0.2		26.0.2	Android SDK Build-Tools 26.0.2	android-sdk-license	54440678	build-tools_r26.0.2-linux.zip	5b2b7b66c7bf2151f2af183b5b50a17808850592		tools	
+build-tools;26.0.3		26.0.3	Android SDK Build-Tools 26.0.3	android-sdk-license	54449983	build-tools_r26.0.3-linux.zip	8a2e6c1bcd845844523a68aa17e5442f0dce328c		tools	
+build-tools;27.0.0		27.0.0	Android SDK Build-Tools 27	android-sdk-license	54441725	build-tools_r27-linux.zip	28542332ba97cf4a08c3eddfcf5edd70e3cf1260		tools	
+build-tools;27.0.1		27.0.1	Android SDK Build-Tools 27.0.1	android-sdk-license	54450260	build-tools_r27.0.1-linux.zip	7f4eedb1077ef948b848040dcd15de9e8a759f4a		tools	
+build-tools;27.0.2		27.0.2	Android SDK Build-Tools 27.0.2	android-sdk-license	54458153	build-tools_r27.0.2-linux.zip	b687ddf6be84f11607871138aad32cf857d0b837		tools	
+build-tools;27.0.3		27.0.3	Android SDK Build-Tools 27.0.3	android-sdk-license	54478554	build-tools_r27.0.3-linux.zip	d85e7a6320eddffe7eeace3437605079dac938ca		tools	
+build-tools;28.0.0		28.0.0	Android SDK Build-Tools 28	android-sdk-license	37157769	build-tools_r28-linux.zip	d9f8a754d833ccd334f56fcc6089c5925cd82abb		tools	
+build-tools;28.0.1		28.0.1	Android SDK Build-Tools 28.0.1	android-sdk-license	57610954	build-tools_r28.0.1-linux.zip	ee70dfa1fccb58b37cebc9544830511f36a137a0		tools	
+build-tools;28.0.2		28.0.2	Android SDK Build-Tools 28.0.2	android-sdk-license	57754663	build-tools_r28.0.2-linux.zip	b4492209810a3fd48deaa982f9852fef12433d55		tools	
+build-tools;28.0.3		28.0.3	Android SDK Build-Tools 28.0.3	android-sdk-license	57830695	build-tools_r28.0.3-linux.zip	ea6f2f7103cd9da9ff0bdf6e37fbbba548fa4165		tools	
+build-tools;29.0.0		29.0.0	Android SDK Build-Tools 29	android-sdk-license	58650449	build-tools_r29-linux.zip	ad314caf1802209c4b00a5f3517af5ceb0d48eae		tools	
+build-tools;29.0.1		29.0.1	Android SDK Build-Tools 29.0.1	android-sdk-license	41682816	build-tools_r29.0.1-linux.zip	fc209e5d91ab2daeac24345a5cb17261940547e4		tools	
+build-tools;29.0.2		29.0.2	Android SDK Build-Tools 29.0.2	android-sdk-license	41678888	build-tools_r29.0.2-linux.zip	c0fc7e5c37ac96bfd0c611802e8ab36d0e71b398		tools	
+build-tools;29.0.3		29.0.3	Android SDK Build-Tools 29.0.3	android-sdk-license	53797376	build-tools_r29.0.3-linux.zip	64efff52165cda5e31848acafa46a05e3f3b4651		tools	
+build-tools;30.0.0		30.0.0	Android SDK Build-Tools 30	android-sdk-license	68819159	build-tools_r30-linux.zip	5bdda303b7aba4073dd2aeb8003b6b0b57098021		tools	
+build-tools;30.0.1		30.0.1	Android SDK Build-Tools 30.0.1	android-sdk-license	52664463	build-tools_r30.0.1-linux.zip	dae27b63a53f3c71a23a2e9517d435f79ce7975b		tools	
+build-tools;30.0.2		30.0.2	Android SDK Build-Tools 30.0.2	android-sdk-license	52664453	build-tools_r30.0.2-linux.zip	363632ff8f7a198bf9fa94e3b9e0db6927bf373d		tools	
+build-tools;30.0.3		30.0.3	Android SDK Build-Tools 30.0.3	android-sdk-license	53134793	build-tools_r30.0.3-linux.zip	2076ea81b5a2fc298ef7bf85d666f496b928c7f1		tools	
+build-tools;31.0.0		31.0.0	Android SDK Build-Tools 31	android-sdk-license	54931191	build-tools_r31-linux.zip	9dbebfdb9ff4c0dbc4ef00677986bf571ddcf99c			
+build-tools;32.0.0		32.0.0	Android SDK Build-Tools 32	android-sdk-license	54940436	build-tools_r32-linux.zip	c7f2c700aafd9f7a2da187d80901481b80156719			
+build-tools;33.0.0		33.0.0	Android SDK Build-Tools 33	android-sdk-license	56000182	build-tools_r33-linux.zip	c561971600d4ce682b128b0bd5d4ab71c5f2ad35			
+build-tools;33.0.1		33.0.1	Android SDK Build-Tools 33.0.1	android-sdk-license	56003178	build-tools_r33.0.1-linux.zip	fefb393b82814feb94f88147827cbc918cf992b0			
+build-tools;33.0.2		33.0.2	Android SDK Build-Tools 33.0.2	android-sdk-license	56003588	build-tools_r33.0.2-linux.zip	9def17c815f46ac09024ebb674466d39d039255c			
+build-tools;34.0.0		34.0.0	Android SDK Build-Tools 34	android-sdk-license	61224257	build-tools_r34-linux.zip	d6d58e0c6925a9e4d9a541e84cd1f405c2f9d2a9			
+cmdline-tools;1.0		1.0	Android SDK Command-line Tools	android-sdk-license	81680508	commandlinetools-linux-6200805_latest.zip	6ffc5bd72db2c755f9b374ed829202262a6d8aaf			
+cmdline-tools;2.0		2.0	Android SDK Command-line Tools	android-sdk-license	86521858	commandlinetools-linux-6514223_latest.zip	14b2114c6eae9e10686a18138d2bb468c46f8e0c	obsolete		
+cmdline-tools;2.1		2.1	Android SDK Command-line Tools	android-sdk-license	86532348	commandlinetools-linux-6609375_latest.zip	9172381ff070ee2a416723c1989770cf4b0d1076			
+cmdline-tools;3.0		3.0	Android SDK Command-line Tools	android-sdk-license	87259900	commandlinetools-linux-6858069_latest.zip	4f4417d53923c34891f1c05f302be2ed197d6844			
+cmdline-tools;4.0		4.0	Android SDK Command-line Tools	android-sdk-license	103957858	commandlinetools-linux-7302050_latest.zip	87e7cd8879ed469117f20090dc4d454a24e30170			
+cmdline-tools;5.0		5.0	Android SDK Command-line Tools	android-sdk-license	109673042	commandlinetools-linux-7583922_latest.zip	0885385de11983c020ff0d47039987fe372160d2			
+cmdline-tools;6.0		6.0	Android SDK Command-line Tools	android-sdk-license	119650630	commandlinetools-linux-8092744_latest.zip	8d47ab9a90caa60ce8a95d7e384ec64633bc13b4			
+cmdline-tools;7.0		7.0	Android SDK Command-line Tools	android-sdk-license	114168525	commandlinetools-linux-8512546_latest.zip	5e7bf2dd563d34917d32f3c5920a85562a795c93			
+cmdline-tools;8.0		8.0	Android SDK Command-line Tools	android-sdk-license	120916547	commandlinetools-linux-9123335_latest.zip	09b65ebc5aa9c5011fec9416d22711ce7ffc2260			
+cmdline-tools;9.0		9.0	Android SDK Command-line Tools	android-sdk-license	133507477	commandlinetools-linux-9477386_latest.zip	7f92d6e0783a6d73ade5396fe4cfcb58544ef14b			
+cmdline-tools;10.0		10.0	Android SDK Command-line Tools	android-sdk-license	138733165	commandlinetools-linux-9862592_latest.zip	a787f0c35d3970f2ad634f7d91a2e7bc49e2c7f5			
+cmdline-tools;11.0		11.0	Android SDK Command-line Tools	android-sdk-license	148832188	commandlinetools-linux-10406996_latest.zip	87b485c7283cba69e41c10f05bf832d2fd691552			
+cmdline-tools;latest		11.0	Android SDK Command-line Tools (latest)	android-sdk-license	148832188	commandlinetools-linux-10406996_latest.zip	87b485c7283cba69e41c10f05bf832d2fd691552			
+emulator		32.1.15	Android Emulator	android-sdk-license	270191252	emulator-linux_x64-10696886.zip	b78f4d2c22d6aa5ca83d26ccb68cbf885a273888		patcher;v4	
+extras;google;auto		2.0.2+really2.0	Android Auto Desktop Head Unit Emulator	android-sdk-license	6895443	desktop-head-unit-linux-x64_r02.0.zip	77e3f80c2834e1fad33f56539ceb0215da408fab			
+ndk-bundle		16.1.4479499	NDK	android-sdk-license	852525873	android-ndk-r16b-linux-x86_64.zip	42aa43aae89a50d1c66c3f9fdecd676936da6128		patcher;v4	
+ndk-bundle		17.2.4988734	NDK	android-sdk-license	709387703	android-ndk-r17c-linux-x86_64.zip	12cacc70c3fd2f40574015631c00f41fb8a39048		patcher;v4	
+ndk-bundle		18.1.5063045	NDK	android-sdk-license	557038702	android-ndk-r18b-linux-x86_64.zip	500679655da3a86aecf67007e8ab230ea9b4dd7b		patcher;v4	
+ndk-bundle		19.0.5232133	NDK	android-sdk-license	823337344	android-ndk-r19-linux-x86_64.zip	f02ad84cb5b6e1ff3eea9e6168037c823408c8ac	obsolete	patcher;v4	
+ndk-bundle		19.2.5345600	NDK	android-sdk-license	823376982	android-ndk-r19c-linux-x86_64.zip	fd94d0be6017c6acbd193eb95e09cf4b6f61b834		patcher;v4	
+ndk-bundle		20.0.5594570	NDK	android-sdk-license	859737910	android-ndk-r20-linux-x86_64.zip	8665fc84a1b1f0d6ab3b5fdd1e30200cc7b9adff		patcher;v4	
+ndk-bundle		20.1.5948944	NDK	android-sdk-license	859780564	android-ndk-r20b-linux-x86_64.zip	d903fdf077039ad9331fb6c3bee78aa46d45527b		patcher;v4	
+ndk-bundle		21.0.6113669	NDK	android-sdk-license	1043332542	android-ndk-r21-linux-x86_64.zip	afc9c0b9faad222898ac8168c78ad4ccac8a1b5c		patcher;v4	
+ndk-bundle		21.1.6352462	NDK	android-sdk-license	1162377080	android-ndk-r21b-linux-x86_64.zip	50250fcba479de477b45801e2699cca47f7e1267		patcher;v4	
+ndk-bundle		21.2.6472646	NDK	android-sdk-license	1162375023	android-ndk-r21c-linux-x86_64.zip	c81a5bcb4672a18d3647bf6898cd4dbcb978d0e8		patcher;v4	
+ndk-bundle		21.3.6528147	NDK	android-sdk-license	1190667841	android-ndk-r21d-linux-x86_64.zip	bcf4023eb8cb6976a4c7cff0a8a8f145f162bf4d		patcher;v4	
+ndk-bundle		21.4.7075529	NDK	android-sdk-license	1190670072	android-ndk-r21e-linux-x86_64.zip	c3ebc83c96a4d7f539bd72c241b2be9dcd29bda9		patcher;v4	
+ndk-bundle		22.0.7026061	NDK	android-sdk-license	1146450986	android-ndk-r22-linux-x86_64.zip	82274313aba10da6177fd41868f56a0f9651dd81		patcher;v4	
+ndk-bundle		22.1.7171670	NDK	android-sdk-license	1148198368	android-ndk-r22b-linux-x86_64.zip	9ece64c7f19763dd67320d512794969930fce9dc		patcher;v4	
+ndk;10.4		10.4	NDK (Side by side) r10e	android-sdk-license	1110915721	android-ndk-r10e-linux-x86_64.zip	f692681b007071103277f6edc6f91cb5c5494a32		patcher;v4	
+ndk;16.1.4479499		16.1.4479499	NDK (Side by side) 16.1.4479499	android-sdk-license	852525873	android-ndk-r16b-linux-x86_64.zip	42aa43aae89a50d1c66c3f9fdecd676936da6128		patcher;v4	
+ndk;17.2.4988734		17.2.4988734	NDK (Side by side) 17.2.4988734	android-sdk-license	709387703	android-ndk-r17c-linux-x86_64.zip	12cacc70c3fd2f40574015631c00f41fb8a39048		patcher;v4	
+ndk;18.1.5063045		18.1.5063045	NDK (Side by side) 18.1.5063045	android-sdk-license	557038702	android-ndk-r18b-linux-x86_64.zip	500679655da3a86aecf67007e8ab230ea9b4dd7b		patcher;v4	
+ndk;19.0.5232133		19.0.5232133	NDK (Side by side) 19.0.5232133	android-sdk-license	823337344	android-ndk-r19-linux-x86_64.zip	f02ad84cb5b6e1ff3eea9e6168037c823408c8ac	obsolete	patcher;v4	
+ndk;19.2.5345600		19.2.5345600	NDK (Side by side) 19.2.5345600	android-sdk-license	823376982	android-ndk-r19c-linux-x86_64.zip	fd94d0be6017c6acbd193eb95e09cf4b6f61b834		patcher;v4	
+ndk;20.0.5594570		20.0.5594570	NDK (Side by side) 20.0.5594570	android-sdk-license	859737910	android-ndk-r20-linux-x86_64.zip	8665fc84a1b1f0d6ab3b5fdd1e30200cc7b9adff		patcher;v4	
+ndk;20.1.5948944		20.1.5948944	NDK (Side by side) 20.1.5948944	android-sdk-license	859780564	android-ndk-r20b-linux-x86_64.zip	d903fdf077039ad9331fb6c3bee78aa46d45527b		patcher;v4	
+ndk;21.0.6113669		21.0.6113669	NDK (Side by side) 21.0.6113669	android-sdk-license	1043332542	android-ndk-r21-linux-x86_64.zip	afc9c0b9faad222898ac8168c78ad4ccac8a1b5c		patcher;v4	
+ndk;21.1.6352462		21.1.6352462	NDK (Side by side) 21.1.6352462	android-sdk-license	1162377080	android-ndk-r21b-linux-x86_64.zip	50250fcba479de477b45801e2699cca47f7e1267		patcher;v4	
+ndk;21.2.6472646		21.2.6472646	NDK (Side by side) 21.2.6472646	android-sdk-license	1162375023	android-ndk-r21c-linux-x86_64.zip	c81a5bcb4672a18d3647bf6898cd4dbcb978d0e8		patcher;v4	
+ndk;21.3.6528147		21.3.6528147	NDK (Side by side) 21.3.6528147	android-sdk-license	1190667841	android-ndk-r21d-linux-x86_64.zip	bcf4023eb8cb6976a4c7cff0a8a8f145f162bf4d		patcher;v4	
+ndk;21.4.7075529		21.4.7075529	NDK (Side by side) 21.4.7075529	android-sdk-license	1190670072	android-ndk-r21e-linux-x86_64.zip	c3ebc83c96a4d7f539bd72c241b2be9dcd29bda9		patcher;v4	
+ndk;22.0.7026061		22.0.7026061	NDK (Side by side) 22.0.7026061	android-sdk-license	1146450986	android-ndk-r22-linux-x86_64.zip	82274313aba10da6177fd41868f56a0f9651dd81		patcher;v4	
+ndk;22.1.7171670		22.1.7171670	NDK (Side by side) 22.1.7171670	android-sdk-license	1148198368	android-ndk-r22b-linux-x86_64.zip	9ece64c7f19763dd67320d512794969930fce9dc		patcher;v4	
+ndk;23.0.7599858		23.0.7599858	NDK (Side by side) 23.0.7599858	android-sdk-license	721667870	android-ndk-r23-linux.zip	9bad35f442caeda747780ba1dd92f2d98609d9cd		patcher;v4	
+ndk;23.1.7779620		23.1.7779620	NDK (Side by side) 23.1.7779620	android-sdk-license	725122099	android-ndk-r23b-linux.zip	f47ec4c4badd11e9f593a8450180884a927c330d		patcher;v4	
+ndk;23.2.8568313		23.2.8568313	NDK (Side by side) 23.2.8568313	android-sdk-license	724733960	android-ndk-r23c-linux.zip	e5053c126a47e84726d9f7173a04686a71f9a67a		patcher;v4	
+ndk;24.0.8215888		24.0.8215888	NDK (Side by side) 24.0.8215888	android-sdk-license	667731974	android-ndk-r24-linux.zip	eceb18f147282eb93615eff1ad84a9d3962fbb31		patcher;v4	
+ndk;25.0.8775105		25.0.8775105	NDK (Side by side) 25.0.8775105	android-sdk-license	530938532	android-ndk-r25-linux.zip	9fce956edb6abd5aca42acf6bbfb21a90a67f75b		patcher;v4	
+ndk;25.1.8937393		25.1.8937393	NDK (Side by side) 25.1.8937393	android-sdk-license	530975885	android-ndk-r25b-linux.zip	e27dcb9c8bcaa77b78ff68c3f23abcf6867959eb		patcher;v4	
+ndk;25.2.9519653		25.2.9519653	NDK (Side by side) 25.2.9519653	android-sdk-license	531118193	android-ndk-r25c-linux.zip	53af80a1cce9144025b81c78c8cd556bff42bd0e		patcher;v4	
+ndk;26.0.10792818		26.0.10792818	NDK (Side by side) 26.0.10792818	android-sdk-license	668596633	android-ndk-r26-linux.zip	d3bef08e0e43acd9e7815538df31818692d548bb		patcher;v4	
+patcher;v4		1	SDK Patch Applier v4	android-sdk-license	1827327	3534162-studio.sdk-patcher.zip	046699c5e2716ae11d77e0bad814f7f33fab261e			
+platforms;android-2	2	1	Android SDK Platform 2	android-sdk-license	45476658	android-1.1_r1-linux.zip	c054d25c9b4c6251fa49c2f9c54336998679d3fe	obsolete		
+platforms;android-3	3	4	Android SDK Platform 3	android-sdk-license	53348669	android-1.5_r04-linux.zip	5c134b7df5f4b8bd5b61ba93bdaebada8fa3468c	obsolete		
+platforms;android-4	4	3	Android SDK Platform 4	android-sdk-license	63454485	android-1.6_r03-linux.zip	483ed088e45bbdf3444baaf9250c8b02e5383cb0	obsolete		
+platforms;android-5	5	1	Android SDK Platform 5	android-sdk-license	75095268	android-2.0_r01-linux.zip	be9be6a99ca32875c96ec7f91160ca9fce7e3c7d	obsolete		
+platforms;android-6	6	1	Android SDK Platform 6	android-sdk-license	79192618	android-2.0.1_r01-linux.zip	ce2c971dce352aa28af06bda92a070116aa5ae1a	obsolete		
+platforms;android-7	7	3	Android SDK Platform 7	android-sdk-license	70142829	android-2.1_r03.zip	5ce51b023ac19f8738500b1007a1da5de2349a1e			
+platforms;android-8	8	3	Android SDK Platform 8	android-sdk-license	74652366	android-2.2_r03.zip	231262c63eefdff8fd0386e9ccfefeb27a8f9202			
+platforms;android-9	9	2	Android SDK Platform 9	android-sdk-license	78732563	android-2.3.1_r02.zip	209f8a7a8b2cb093fce858b8b55fed3ba5206773			
+platforms;android-10	10	2	Android SDK Platform 10	android-sdk-license	85470907	android-2.3.3_r02.zip	887e37783ec32f541ea33c2c649dda648e8e6fb3			
+platforms;android-11	11	2	Android SDK Platform 11	android-sdk-license	104513908	android-3.0_r02.zip	2c7d4bd13f276e76f6bbd87315fe27aba351dd37			
+platforms;android-12	12	3	Android SDK Platform 12	android-sdk-license	106472351	android-3.1_r03.zip	4a50a6679cd95bb68bb5fc032e754cd7c5e2b1bf			
+platforms;android-13	13	1	Android SDK Platform 13	android-sdk-license	108426536	android-3.2_r01.zip	6189a500a8c44ae73a439604363de93591163cd9			
+platforms;android-14	14	4	Android SDK Platform 14	android-sdk-license	46038082	android-14_r04.zip	d4f1d8fbca25225b5f0e7a0adf0d39c3d6e60b3c			
+platforms;android-15	15	5	Android SDK Platform 15	android-sdk-license	44533475	android-15_r05.zip	69ab4c443b37184b2883af1fd38cc20cbeffd0f3			
+platforms;android-16	16	5	Android SDK Platform 16	android-sdk-license	48128695	android-16_r05.zip	12a5ce6235a76bc30f62c26bda1b680e336abd07			
+platforms;android-17	17	3	Android SDK Platform 17	android-sdk-license	57030216	android-17_r03.zip	dbe14101c06e6cdb34e300393e64e64f8c92168a			
+platforms;android-18	18	3	Android SDK Platform 18	android-sdk-license	57771739	android-18_r03.zip	e6b09b3505754cbbeb4a5622008b907262ee91cb			
+platforms;android-19	19	4	Android SDK Platform 19	android-sdk-license	63871092	android-19_r04.zip	2ff20d89e68f2f5390981342e009db5a2d456aaa			
+platforms;android-20	20	2	Android SDK Platform 20	android-sdk-license	63567784	android-20_r02.zip	a9251f8a3f313ab05834a07a963000927637e01d			
+platforms;android-21	21	2	Android SDK Platform 21	android-sdk-license	65897960	android-21_r02.zip	53536556059bb29ae82f414fd2e14bc335a4eb4c			
+platforms;android-22	22	2	Android SDK Platform 22	android-sdk-license	66852371	android-22_r02.zip	5d1bd10fea962b216a0dece1247070164760a9fc			
+platforms;android-23	23	3	Android SDK Platform 23	android-sdk-license	70433421	platform-23_r03.zip	027fede3de6aa1649115bbd0bffff30ccd51c9a0			
+platforms;android-24	24	2	Android SDK Platform 24	android-sdk-license	82648154	platform-24_r02.zip	8912da3d4bfe7a9f28f0e5ce92d3a8dc96342aee			
+platforms;android-25	25	3	Android SDK Platform 25	android-sdk-license	85424763	platform-25_r03.zip	00c2c5765e8988504be10a1eb66ed71fcdbd7fe8			
+platforms;android-26	26	2	Android SDK Platform 26	android-sdk-license	63623734	platform-26_r02.zip	e4ae5d7aa557a3c827135838ee400da8443ac4ef			
+platforms;android-27	27	3	Android SDK Platform 27	android-sdk-license	65635348	platform-27_r03.zip	35f747e7e70b2d16e0e4246876be28d15ea1c353			
+platforms;android-28	28	6	Android SDK Platform 28	android-sdk-license	75565084	platform-28_r06.zip	9a4e52b1d55bd2e24216b150aafae2503d3efba6			
+platforms;android-29	29	5	Android SDK Platform 29	android-sdk-license	78293913	platform-29_r05.zip	9d8a7e0ffa5168dbca6c60355b9129c6c7572aff			
+platforms;android-30	30	3	Android SDK Platform 30	android-sdk-license	52328361	platform-30_r03.zip	e7c6280901dcfa511af098d67dd88c4dfcbc6ea2			
+platforms;android-31	31	1	Android SDK Platform 31	android-sdk-license	56475526	platform-31_r01.zip	ca5bcaa565cb37e9d287051d6dd0e49a5426ec29			
+platforms;android-32	32	1	Android SDK Platform 32	android-sdk-license	66108299	platform-32_r01.zip	afae86ed55d29733d50996ffed832f2d1bd75b9a			
+platforms;android-33	33	1	Android SDK Platform 33-ext4	android-sdk-license	67564453	platform-33-ext4_r01.zip	422f50033523c5f934f38df520699080b59bbc7e			
+platforms;android-33	33	1	Android SDK Platform 33-ext5	android-sdk-license	67581187	platform-33-ext5_r01.zip	a6499e158fdd7140e3e466314b273016281fefcc			
+platforms;android-33	33	3	Android SDK Platform 33	android-sdk-license	67334237	platform-33-ext3_r03.zip	394bc86d8d3452aa4d419b67743025a6fb2cd9d0			
+platforms;android-34	34	2	Android SDK Platform 34	android-sdk-license	63180079	platform-34-ext7_r02.zip	f09b07da8aea238a81b71d6fedb815e13aa13e58			
+platforms;android-TiramisuPrivacySandbox	33	9	Android SDK Platform TiramisuPrivacySandbox	android-sdk-license	67663071	platform-TiramisuPrivacySandbox_r09.zip	6bc5e85cd2ea54df4dae036ff20fb0e889a6835e			
+platforms;android-UpsideDownCakePrivacySandbox	34	2	Android SDK Platform UpsideDownCakePrivacySandbox	android-sdk-license	63995218	platform-UpsideDownCakePrivacySandbox_r02.zip	5701983e5660f11930e2da0ee28cb53426fd4933			
+platforms;android-UpsideDownCake	33	4	Android SDK Platform UpsideDownCake	android-sdk-license	63483782	platform-UpsideDownCake_r04.zip	a0fe6b17b8ea26c72f4a1feb0234aab6b20fd4be	obsolete		
+platform-tools		34.0.4	Android SDK Platform-Tools	android-sdk-license	6325905	platform-tools_r34.0.4-linux.zip	faaac1c05af0e3fa20baee6e8970d96fb53bfe58			
+sources;android-14		1	Sources for Android 14	android-sdk-license	16152383	sources-14_r01.zip	eaf4ed7dcac46e68516a1b4aa5b0d9e5a39a7555	obsolete		
+sources;android-15		2	Sources for Android 15	android-sdk-license	16468746	sources-15_r02.zip	e5992a5747c9590783fbbdd700337bf0c9f6b1fa			
+sources;android-16		2	Sources for Android 16	android-sdk-license	17876720	sources-16_r02.zip	0f83c14ed333c45d962279ab5d6bc98a0269ef84			
+sources;android-17		1	Sources for Android 17	android-sdk-license	18976816	sources-17_r01.zip	6f1f18cd2d2b1852d7f6892df9cee3823349d43a			
+sources;android-18		1	Sources for Android 18	android-sdk-license	20226735	sources-18_r01.zip	8b49fdf7433f4881a2bfb559b5dd05d8ec65fb78			
+sources;android-19		2	Sources for Android 19	android-sdk-license	21819439	sources-19_r02.zip	433a1d043ef77561571250e94cb7a0ef24a202e7			
+sources;android-20		1	Sources for Android 20	android-sdk-license	23367603	sources-20_r01.zip	8da3e40f2625f9f7ef38b7e403f49f67226c0d76			
+sources;android-21		1	Sources for Android 21	android-sdk-license	28274751	sources-21_r01.zip	137a5044915d32bea297a8c1552684802bbc2e25			
+sources;android-22		1	Sources for Android 22	android-sdk-license	28861236	sources-22_r01.zip	98320e13976d11597a4a730a8d203ac9a03ed5a6			
+sources;android-23		1	Sources for Android 23	android-sdk-license	31771965	sources-23_r01.zip	b0f15da2762b42f543c5e364c2b15b198cc99cc2			
+sources;android-24		1	Sources for Android 24	android-sdk-license	30270410	sources-24_r01.zip	6b96115830a83d654479f32ce4b724ca9011148b			
+sources;android-25		1	Sources for Android 25	android-sdk-license	30822685	sources-25_r01.zip	bbc72efd1a9bad87cc507e308f0d29aad438c52c			
+sources;android-26		1	Sources for Android 26	android-sdk-license	35138547	sources-26_r01.zip	2af701ee3223d580409288540b1d06932fd8f9b9			
+sources;android-27		1	Sources for Android 27	android-sdk-license	36997618	sources-27_r01.zip	7b714670561d08f54751af42aca929867b806596			
+sources;android-28		1	Sources for Android 28	android-sdk-license	42552241	sources-28_r01.zip	5610e0c24235ee3fa343c899ddd551be30315255			
+sources;android-29		1	Sources for Android 29	android-sdk-license	39477018	sources-29_r01.zip	d0ad249e152b3a8fe3cb7c4a329453a048be29e4			
+sources;android-30		1	Sources for Android 30	android-sdk-license	43263073	sources-30_r01.zip	e4c000fb3afb32380609ddcad91f5d6495eeccb1			
+sources;android-31		1	Sources for Android 31	android-sdk-license	46383726	sources-31_r01.zip	2934d1b2975a8bf9fff112bd45a04f6d90db743e			
+sources;android-32		1	Sources for Android 32	android-sdk-license	46933291	sources-32_r01.zip	d7195c6de611b99d7ec3565eabe2fd21268b7f98			
+sources;android-33		1	Sources for Android 33	android-sdk-license	49205616	sources-33_r01.zip	dd9819363bb213e378bb9d84b4c5fe8d8091c219			
+sources;android-34		1	Sources for Android 34	android-sdk-license	53812451	sources-34_r01.zip	41f67d064dbe84f32a763d65a05c40285c2fbb70			

@@ -1,0 +1,31 @@
+Package: google-android-cmdline-tools-%VER%-installer
+Architecture: amd64 i386
+Conflicts: ${cmdline-tools:Conflicts}
+Replaces: ${cmdline-tools:Replaces}
+Depends: default-jre-headless,
+         google-android-build-tools,
+         google-android-licenses (= ${source:Version}),
+         ${googleAndroidInstallers:Depends},
+         ${misc:Depends}
+Provides: ${cmdline-tools:Provides}
+Homepage: https://developer.android.com/studio/command-line#tools-sdk
+Description: Google's %PACKAGE_DISPLAY_NAME% (%VER%) Installer
+ This package will download the Google's %PACKAGE_DISPLAY_NAME% (%VER%)
+ package and unpacks it into Debian-friendly paths.
+ .
+ Google's %PACKAGE_DISPLAY_NAME% (%VER%) contains various tools for
+ building and debugging Android apps. It is released concurrently with Android
+ Studio and is installed in /usr/lib/android-sdk/cmdline-tools/<version>/bin/
+ directory.
+ .
+ The tools shipped by this package are:
+  apkanalyzer,
+  avdmanager,
+  lint,
+  retrace,
+  sdkmanager.
+ .
+ WARNING: Installing this Debian package causes
+ %ZIPFILE% (%MB_SIZE% MB) to be downloaded
+ from dl.google.com and/or from other suggested mirrors. The End User License
+ Agreement of this binary package is available at developer.android.com.

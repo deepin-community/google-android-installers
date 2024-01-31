@@ -1,0 +1,2 @@
+var/cache/google-android-build-tools-%VER%-installer
+usr/share/doc/google-android-build-tools-%VER%

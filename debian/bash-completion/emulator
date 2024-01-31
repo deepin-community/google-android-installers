@@ -1,0 +1,62 @@
+## Bash completion for the Android SDK tools.
+##
+## Copyright (c) 2009 Matt Brubeck
+##
+## Permission is hereby granted, free of charge, to any person obtaining a copy
+## of this software and associated documentation files (the "Software"), to deal
+## in the Software without restriction, including without limitation the rights
+## to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+## copies of the Software, and to permit persons to whom the Software is
+## furnished to do so, subject to the following conditions:
+##
+## The above copyright notice and this permission notice shall be included in
+## all copies or substantial portions of the Software.
+##
+## THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+## IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+## FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+## AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+## LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+## OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+## THE SOFTWARE.
+
+function _emulator()
+{
+  local cur prev opts
+  COMPREPLY=()
+  cur="${COMP_WORDS[COMP_CWORD]}"
+  prev="${COMP_WORDS[COMP_CWORD-1]}"
+  # created with: echo `emulator -help| grep -Eo '\s+-[a-z0-9-]+' |grep -v -E '\-$' | sort -u`
+  opts="-accel -audio -avd -bootchart -cache -cache-size -camera-back -camera-front -charmap -code-profile -cores -cpu-delay -data -datadir -debug -debug -dns-server -dpi-device -engine -fixed-scale -force-32bit -gps -gpu -h -help -help-all -help-build-images -help-char-devices -help-debug-tags -help-disk-images -help-environment -help-sdk-images -help-virtual-device -http-proxy -image -initdata -kernel -list-avds -logcat -memory -nand-limits -netdelay -netfast -netspeed -no-accel -no-audio -noaudio -no-audio -no-boot-anim -no-cache -nocache -no-cache -no-jni -nojni -no-jni -no-skin -noskin -no-skin -no-snapshot -no-snapshot-load -no-snapshot-save -no-snapshot-update-time -no-snapstorage -no-window -onion -onion-alpha -onion-rotation -partition-size -port -ports -prop -qemu -radio -ramdisk -ranchu -report-console -scale -screen -sdcard -selinux -shared-net-id -shell -shell-serial -show-kernel -skin -skindir -skip-adb-auth -snapshot -snapshot-list -snapstorage -sysdir -system -system -tcpdump -timezone -unix-pipe -use-system-libs -verbose -version -wait-for-debugger -webcam-list -wipe-data -writable-system"
+
+  case "$prev" in
+    -avd)
+      COMPREPLY=( $(compgen -W "$(find ~/.android/avd -maxdepth 1 -name '*.ini' -exec basename {} .ini \;)" -- ${cur}) )
+      return 0
+      ;;
+  esac
+
+
+  case "$cur" in
+    @*)
+      COMPREPLY=( $(compgen -P @ -W "$(find ~/.android/avd -maxdepth 1 -name '*.ini' -exec basename {} .ini \;)" -- ${cur:1} ) )
+      return 0
+      ;;
+  esac
+
+  case "$cur" in
+    -*)
+      COMPREPLY=( $(compgen -W "$opts" -- ${cur}) )
+      return 0
+      ;;
+  esac
+}
+complete -o default -F _emulator emulator
+
+# Local variables:
+# mode: shell-script
+# sh-basic-offset: 4
+# sh-indent-comment: t
+# indent-tabs-mode: nil
+# End:
+# ex: ts=4 sw=4 et filetype=sh

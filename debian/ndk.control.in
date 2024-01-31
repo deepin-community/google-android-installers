@@ -1,0 +1,22 @@
+Package: google-android-ndk-%VER%-installer
+Architecture: amd64
+Depends: google-android-licenses (= ${source:Version}),
+         ${googleAndroidInstallers:Depends},
+         ${misc:Depends}
+Conflicts: google-android-ndk-installer
+Replaces: google-android-ndk-installer
+Homepage: https://developer.android.com/ndk/index.html
+Description: Google's %PACKAGE_DISPLAY_NAME% Installer
+ This package will download the Google's %PACKAGE_DISPLAY_NAME%
+ package and unpacks it into Debian-friendly paths.
+ .
+ The Android Native Development Kit (NDK) is a toolset that lets you implement
+ parts of your app using native-code languages such as C and C++. For certain
+ types of apps, this can help you reuse existing code libraries written in
+ those languages.
+ .
+ WARNING: Installing this Debian package causes
+ %ZIPFILE% (%MB_SIZE% MB) to be
+ downloaded from dl.google.com and/or from other suggested mirrors. The End
+ User License Agreement of this binary package is available at
+ developer.android.com.

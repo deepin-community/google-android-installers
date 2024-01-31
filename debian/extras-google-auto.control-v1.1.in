@@ -1,0 +1,26 @@
+Package: google-android-extras-google-auto-installer
+Architecture: amd64 i386
+Depends: google-android-licenses (= ${source:Version}),
+         libportaudio2,
+         libsdl2-2.0-0,
+         libsdl2-ttf-2.0-0,
+         libssl1.0.0,
+         ${googleAndroidInstallers:Depends},
+         ${misc:Depends}
+Homepage: https://developer.android.com/training/cars/testing
+Description: Google's %PACKAGE_DISPLAY_NAME% Installer
+ This package will download the Google's
+ %PACKAGE_DISPLAY_NAME% package and unpacks it into
+ Debian-friendly paths.
+ .
+ Google's %PACKAGE_DISPLAY_NAME% is a component for the
+ Android SDK. DHU commands allow you to test your app with Android Auto
+ features, such as playing voice input or switching between night and day
+ display mode. You can issue commands to the DHU from the terminal window
+ where you launched the DHU. You can also issue commands by selecting the DHU
+ window and using keyboard shortcuts.
+ .
+ WARNING: Installing this Debian package causes
+ %ZIPFILE% (%MB_SIZE% MB) to be downloaded from
+ dl.google.com and/or from other suggested mirrors. The End User License
+ Agreement of this binary package is available at developer.android.com.

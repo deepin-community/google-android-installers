@@ -1,0 +1,25 @@
+Package: google-android-build-tools-%VER%-installer
+Multi-Arch: foreign
+Architecture: amd64
+Conflicts: ${build-tools:Conflicts},
+           google-android-build-tools-%VER_MAJOR%-installer,
+           google-android-build-tools-installer,
+Replaces: ${build-tools:Replaces},
+          google-android-build-tools-%VER_MAJOR%-installer,
+          google-android-build-tools-installer,
+Provides: google-android-build-tools, ${build-tools:Provides}
+Depends: google-android-licenses (= ${source:Version}),
+         libstdc++6,
+         zlib1g,
+         ${googleAndroidInstallers:Depends},
+         ${misc:Depends}
+Homepage: https://developer.android.com/studio/command-line#tools-build
+Description: Google's %PACKAGE_DISPLAY_NAME% Installer (aapt, aidl, dexdump, dx)
+ This package will download the binary Google Android build tools and create a
+ Debian package.  The build tools are used in the process of assembling the
+ java code into the APK package.  They can also be useful for inspecting APKs.
+ .
+ WARNING: Installing this Debian package causes %ZIPFILE%
+ (%MB_SIZE% MB) to be downloaded from dl.google.com and/or from other suggested
+ mirrors. The End User License Agreement of this binary package is available at
+ developer.android.com.
